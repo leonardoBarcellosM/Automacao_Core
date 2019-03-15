@@ -1,0 +1,42 @@
+﻿2019-03-15T13:48:46.7224310-03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-03-15T13:48:46.7225031-03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.246 in Framework netcore22 in x64 mode execution started
+2019-03-15T13:48:46.7225065-03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\leonardo.barcellos\source\repos\Automacao_Funcional_Fundacred\Automacao_Funcional_Fundacred\bin\Debug\netcoreapp2.2\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-03-15T13:48:46.7775554-03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\leonardo.barcellos\source\repos\Automacao_Funcional_Fundacred\Automacao_Funcional_Fundacred\bin\Debug\netcoreapp2.2\Automacao_Funcional_Fundacred.dll
+2019-03-15T13:48:46.7778394-03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\leonardo.barcellos\source\repos\Automacao_Funcional_Fundacred\TestResults" (default)
+2019-03-15T13:48:46.7779206-03:00;VSTestExecutionThread;Info;Profile: 
+2019-03-15T13:48:46.8336789-03:00;VSTestExecutionThread;Info;Log file path: C:\Users\leonardo.barcellos\source\repos\Automacao_Funcional_Fundacred\TestResults\Unnamed project__2019-03-15T134846.log
+2019-03-15T13:48:46.8388235-03:00;VSTestExecutionThread;Error;Invalid project license: Project licenses cannot be used without assembly paths
+2019-03-15T13:48:46.8492546-03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-03-15T13:48:46.8688308-03:00;Thread#11;Info;Checking license
+2019-03-15T13:48:46.8693205-03:00;Thread#11;Error;Invalid project license: Project licenses cannot be used without assembly paths
+2019-03-15T13:48:46.8707957-03:00;Thread#11;Error;Invalid project license: Project licenses cannot be used without assembly paths
+2019-03-15T13:48:46.9021694-03:00;Thread#11;Info;Evaluation mode: test execution starts in 12 seconds... (this delay is removed in the registered version)
+2019-03-15T13:48:58.9033928-03:00;Thread#11;Info;Evaluation delay finished.
+2019-03-15T13:48:58.9207989-03:00;Thread#11;Info;License check completed
+2019-03-15T13:48:58.9209141-03:00;Thread#11;Info;starting test run
+2019-03-15T13:48:58.9297344-03:00;Thread#11;Info;Discovering target: Default
+2019-03-15T13:48:58.9320136-03:00:Test Suite Dump
+2019-03-15T13:48:58.9345087-03:00:#0: Unnamed project/ - 
+2019-03-15T13:48:58.9346034-03:00:End: Test Suite Dump
+2019-03-15T13:48:58.9607306-03:00:Thread#0:Scheduler: get next test for thread 0
+2019-03-15T13:48:58.9642399-03:00:Thread#:Scheduler: at the end of normal test queue
+2019-03-15T13:48:58.9642644-03:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-03-15T13:48:58.9646590-03:00:Thread#0:Scheduler: No more tests for thread
+2019-03-15T13:48:58.9745861-03:00:Thread#-1:Scheduler: get next test for thread -1
+2019-03-15T13:48:58.9746114-03:00:Thread#:Scheduler: at the end of normal test queue
+2019-03-15T13:48:58.9746136-03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-03-15T13:48:58.9763565-03:00;Thread#11;Info;test run finished
+2019-03-15T13:48:58.9764962-03:00;Thread#11;Info;publishing test results
+2019-03-15T13:48:58.9770403-03:00;Thread#11;Info;Not publishing results.
+2019-03-15T13:48:58.9772328-03:00;Thread#11;Info;test results published
+2019-03-15T13:48:58.9773099-03:00;Thread#11;Info;generating reports
+2019-03-15T13:48:59.0780116-03:00;Thread#11;Error;Failed fetching a single test assembly working directory.
+2019-03-15T13:48:59.0783831-03:00;Thread#11;Info;Failed generating reports
+2019-03-15T13:48:59.0864728-03:00:Total: 0
+2019-03-15T13:48:59.0892515-03:00:Succeeded: 0
+2019-03-15T13:48:59.0898197-03:00:Ignored: 0
+2019-03-15T13:48:59.0903582-03:00:Pending: 0
+2019-03-15T13:48:59.0910839-03:00:Skipped: 0
+2019-03-15T13:48:59.0916412-03:00:Failed: 0
+2019-03-15T13:48:59.1026225-03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========
