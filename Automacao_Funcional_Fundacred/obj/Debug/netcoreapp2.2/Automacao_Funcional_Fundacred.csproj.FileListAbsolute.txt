@@ -326,7 +326,6 @@ C:\Users\leonardo.barcellos\source\repos\Testes_DotNet_Core\Automacao_Funcional_
 C:\Users\leonardo.barcellos\source\repos\Teste\Automacao_Funcional_Fundacred\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
 C:\Users\leonardo.barcellos\source\repos\Teste\Automacao_Funcional_Fundacred\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
 C:\Users\leonardo.barcellos\source\repos\Teste\Automacao_Funcional_Fundacred\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
-C:\Users\leonardo.barcellos\source\repos\Teste\Automacao_Funcional_Fundacred\bin\Debug\netcoreapp2.2\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
 C:\Users\leonardo.barcellos\source\repos\Teste\Automacao_Funcional_Fundacred\bin\Debug\netcoreapp2.2\Automacao_Funcional_Fundacred.deps.json
 C:\Users\leonardo.barcellos\source\repos\Teste\Automacao_Funcional_Fundacred\bin\Debug\netcoreapp2.2\Automacao_Funcional_Fundacred.runtimeconfig.json
 C:\Users\leonardo.barcellos\source\repos\Teste\Automacao_Funcional_Fundacred\bin\Debug\netcoreapp2.2\Automacao_Funcional_Fundacred.runtimeconfig.dev.json
@@ -338,3 +337,4 @@ C:\Users\leonardo.barcellos\source\repos\Teste\Automacao_Funcional_Fundacred\obj
 C:\Users\leonardo.barcellos\source\repos\Teste\Automacao_Funcional_Fundacred\obj\Debug\netcoreapp2.2\Automacao_Funcional_Fundacred.AssemblyInfo.cs
 C:\Users\leonardo.barcellos\source\repos\Teste\Automacao_Funcional_Fundacred\obj\Debug\netcoreapp2.2\Automacao_Funcional_Fundacred.dll
 C:\Users\leonardo.barcellos\source\repos\Teste\Automacao_Funcional_Fundacred\obj\Debug\netcoreapp2.2\Automacao_Funcional_Fundacred.pdb
+C:\Users\leonardo.barcellos\source\repos\Teste\Automacao_Funcional_Fundacred\bin\Debug\netcoreapp2.2\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
