@@ -20,7 +20,6 @@
     <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
     <PackageReference Include="Selenium.WebDriver.NetCoreWebDriverFactory" Version="3.0.0-alpha2" />
     <PackageReference Include="SpecFlow" Version="3.0.177-beta" />
-    <PackageReference Include="SpecFlow.NUnit" Version="3.0.177-beta" />
     <PackageReference Include="System.ValueTuple" Version="4.5.0" />
   </ItemGroup>
 
