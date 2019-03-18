@@ -6812,11 +6812,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leonardo.barcellos\\source\\repos\\Automacao_Funcional_Fundacred\\Automacao_Funcional_Fundacred\\Automacao_Funcional_Fundacred.csproj",
+      "projectUniqueName": "C:\\Users\\leonardo.barcellos\\source\\repos\\Teste\\Automacao_Funcional_Fundacred\\Automacao_Funcional_Fundacred.csproj",
       "projectName": "Automacao_Funcional_Fundacred",
-      "projectPath": "C:\\Users\\leonardo.barcellos\\source\\repos\\Automacao_Funcional_Fundacred\\Automacao_Funcional_Fundacred\\Automacao_Funcional_Fundacred.csproj",
+      "projectPath": "C:\\Users\\leonardo.barcellos\\source\\repos\\Teste\\Automacao_Funcional_Fundacred\\Automacao_Funcional_Fundacred.csproj",
       "packagesPath": "C:\\Users\\leonardo.barcellos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leonardo.barcellos\\source\\repos\\Automacao_Funcional_Fundacred\\Automacao_Funcional_Fundacred\\obj\\",
+      "outputPath": "C:\\Users\\leonardo.barcellos\\source\\repos\\Teste\\Automacao_Funcional_Fundacred\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

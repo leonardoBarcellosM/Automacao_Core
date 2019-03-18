@@ -3,6 +3,8 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
+using System;
+using System.IO;
 
 namespace Automacao_Funcional.tests.steps
 {
@@ -41,8 +43,20 @@ namespace Automacao_Funcional.tests.steps
 
         public void StartDriver(string typeBrowser)
         {
-            //string path = @"C:\Users\leonardo.barcellos\source\repos\Automacao_Funcional_Fundacred\Automacao_Funcional\Driver\chromedriver_win32";
-            string path = @"C:\Driver\chromedriver_win32";
+            var currentPath = Directory.GetCurrentDirectory();
+            string path = "";
+            
+
+            if(Environment.OSVersion.Platform == PlatformID.Win32NT)
+            {
+                path = $"{currentPath}\\..\\..\\..\\WebDriverWindows";
+            }
+            else
+            {
+                path = $"{currentPath}\\..\\..\\..\\WebDriverLinux";
+            }
+
+            //"C:\Users\leonardo.barcellos\source\repos\Teste\Automacao_Funcional_Fundacred\WebDriverWindows\chromedriver.exe"
 
             switch (typeBrowser)
             {
@@ -64,7 +78,7 @@ namespace Automacao_Funcional.tests.steps
 
                 case "H":
                     ChromeOptions options = new ChromeOptions();
-                    options.AddArguments(path, "--whitelist - ip %", "--window-size=1800,2000", "--headless", "--disable-gpu", "--no-sandbox");
+                    options.AddArguments(path, "--window-size=1800,2000", "--headless", "--disable-gpu", "--no-sandbox");
                     driver = new ChromeDriver(path, options);
                     break;
 
