@@ -22,7 +22,6 @@
     <PackageReference Include="nunit" Version="3.11.0" />
     <PackageReference Include="NUnit.Console" Version="3.9.0" />
     <PackageReference Include="NUnit.ConsoleRunner" Version="3.9.0" />
-    <PackageReference Include="NUnit.Runners" Version="3.9.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.13.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.1" />
     <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.18.5" />
@@ -32,7 +31,6 @@
     <PackageReference Include="SpecFlow" Version="3.0.177-beta" />
     <PackageReference Include="SpecFlow.NUnit" Version="3.0.177-beta" />
     <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.0.177-beta" />
-    <PackageReference Include="SpecRun.Runner" Version="3.0.246-beta" />
   </ItemGroup>
 
   <ItemGroup>
