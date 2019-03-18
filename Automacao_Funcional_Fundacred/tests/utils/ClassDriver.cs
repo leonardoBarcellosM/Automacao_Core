@@ -53,7 +53,7 @@ namespace Automacao_Funcional.tests.steps
             }
             else
             {
-                path = $"{currentPath}\\..\\..\\..\\WebDriverLinux";
+                path = $"{currentPath}/../../../WebDriverLinux";
             }
 
             //"C:\Users\leonardo.barcellos\source\repos\Teste\Automacao_Funcional_Fundacred\WebDriverWindows\chromedriver.exe"

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "375b5354b44e296ac6af5382310066d980b95c71"
+    "signature": "1ef4a9dff394e66a59c1c77086fc7e5d0591255a"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,8 +11,6 @@
           "DotNetSeleniumExtras.PageObjects": "3.11.0",
           "DotNetSeleniumExtras.PageObjects.Core": "3.12.1-beta",
           "Microsoft.NET.Test.Sdk": "16.0.1",
-          "NUnit.Console": "3.9.0",
-          "NUnit.ConsoleRunner": "3.9.0",
           "NUnit3TestAdapter": "3.13.0",
           "Oracle.ManagedDataAccess.Core": "2.18.5",
           "Selenium.Support": "3.141.0",
@@ -20,7 +18,6 @@
           "Selenium.WebDriver.NetCoreWebDriverFactory": "3.0.0-alpha2",
           "SpecFlow": "3.0.177-beta",
           "SpecFlow.NUnit": "3.0.177-beta",
-          "SpecFlow.Tools.MsBuild.Generation": "3.0.177-beta",
           "NUnit": "3.11.0"
         },
         "runtime": {
@@ -456,22 +453,6 @@
           }
         }
       },
-      "NUnit.Console/3.9.0": {
-        "dependencies": {
-          "NUnit.ConsoleRunner": "3.9.0",
-          "NUnit.Extension.NUnitProjectLoader": "3.5.0",
-          "NUnit.Extension.NUnitV2Driver": "3.6.0",
-          "NUnit.Extension.NUnitV2ResultWriter": "3.5.0",
-          "NUnit.Extension.TeamCityEventListener": "1.0.3",
-          "NUnit.Extension.VSProjectLoader": "3.8.0"
-        }
-      },
-      "NUnit.ConsoleRunner/3.9.0": {},
-      "NUnit.Extension.NUnitProjectLoader/3.5.0": {},
-      "NUnit.Extension.NUnitV2Driver/3.6.0": {},
-      "NUnit.Extension.NUnitV2ResultWriter/3.5.0": {},
-      "NUnit.Extension.TeamCityEventListener/1.0.3": {},
-      "NUnit.Extension.VSProjectLoader/3.8.0": {},
       "NUnit3TestAdapter/3.13.0": {
         "dependencies": {
           "Microsoft.DotNet.InternalAbstractions": "1.0.0",
@@ -552,11 +533,6 @@
             "assemblyVersion": "3.0.0.0",
             "fileVersion": "3.0.177.9313"
           }
-        }
-      },
-      "SpecFlow.Tools.MsBuild.Generation/3.0.177-beta": {
-        "dependencies": {
-          "SpecFlow": "3.0.177-beta"
         }
       },
       "System.AppContext/4.1.0": {
@@ -1333,55 +1309,6 @@
       "path": "nunit/3.11.0",
       "hashPath": "nunit.3.11.0.nupkg.sha512"
     },
-    "NUnit.Console/3.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-TcMc3YEbxFKjPDEgzgwdKoIwPKwUwH3c7b6xuOMfENUOJ1hY94hDFb8L92hbPDFK5drYDsV5/8Kowlat51Blbg==",
-      "path": "nunit.console/3.9.0",
-      "hashPath": "nunit.console.3.9.0.nupkg.sha512"
-    },
-    "NUnit.ConsoleRunner/3.9.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-BXFdpEBTpBwK4PsDyjwCn1s0o1LdEFet2VATl5Z4iMitjSq/cVQpnAwjkQAJ0aIhdMqtYx/xbmmFCl4OGpa7eQ==",
-      "path": "nunit.consolerunner/3.9.0",
-      "hashPath": "nunit.consolerunner.3.9.0.nupkg.sha512"
-    },
-    "NUnit.Extension.NUnitProjectLoader/3.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-oe+PYd5uf0u3WoV6txz6esPe5I9I3PV0o96KoEVvJs+AYMG9MCebmnMq7N8dYJrWiDKIuSDwZ6WTs84XTDZ/Pw==",
-      "path": "nunit.extension.nunitprojectloader/3.5.0",
-      "hashPath": "nunit.extension.nunitprojectloader.3.5.0.nupkg.sha512"
-    },
-    "NUnit.Extension.NUnitV2Driver/3.6.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-TZIWwZaND/91p9FCuZH0vJLNPVyFV4No6XHgtd2ZLwN6MQZVPWdI4apL38ejsKAFn3nF1yTlvJgYF1l2mlo8wA==",
-      "path": "nunit.extension.nunitv2driver/3.6.0",
-      "hashPath": "nunit.extension.nunitv2driver.3.6.0.nupkg.sha512"
-    },
-    "NUnit.Extension.NUnitV2ResultWriter/3.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-qz5Xxd+yBStdMP/jIIFz01cN3x8rKBCoF3alFHa5Gr+lZqdFyV1DN+3l8AlHrDSX5OzAz+T5CCBkgDim/hqGkQ==",
-      "path": "nunit.extension.nunitv2resultwriter/3.5.0",
-      "hashPath": "nunit.extension.nunitv2resultwriter.3.5.0.nupkg.sha512"
-    },
-    "NUnit.Extension.TeamCityEventListener/1.0.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Xl/ISHoJMbQHxpfa06KELaSU46V+KjofeZHAPmlb6ohw4HmmzRp+Hk7vkJPZtNyTrKZbqutefOSMKpnkgEl8tA==",
-      "path": "nunit.extension.teamcityeventlistener/1.0.3",
-      "hashPath": "nunit.extension.teamcityeventlistener.1.0.3.nupkg.sha512"
-    },
-    "NUnit.Extension.VSProjectLoader/3.8.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-CIScV9a7+wUu6Ylb+WO0q/WGWQVoB05TUj3XZHa1CO+2BInDdfIVkqtlrSguhy6D/AGIMaLVrCZpQkQ2m0bbzQ==",
-      "path": "nunit.extension.vsprojectloader/3.8.0",
-      "hashPath": "nunit.extension.vsprojectloader.3.8.0.nupkg.sha512"
-    },
     "NUnit3TestAdapter/3.13.0": {
       "type": "package",
       "serviceable": true,
@@ -1437,13 +1364,6 @@
       "sha512": "sha512-q5m5/wBtJi83CNTAo1brdw2PZunPT0xslWcoJUQ5z9mUFpxIwoUd4pXN+kbXzLbNzx2DEz2zG2UrdS3X4nvwWQ==",
       "path": "specflow.nunit/3.0.177-beta",
       "hashPath": "specflow.nunit.3.0.177-beta.nupkg.sha512"
-    },
-    "SpecFlow.Tools.MsBuild.Generation/3.0.177-beta": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-S4qG6oux76Qpu9aM8YfmzV3fSdzAphebnSfuiTtw76ARmkP4ReeLw/a15a8cizeWi2aeNDbhIpu7pPOl3W5Lag==",
-      "path": "specflow.tools.msbuild.generation/3.0.177-beta",
-      "hashPath": "specflow.tools.msbuild.generation.3.0.177-beta.nupkg.sha512"
     },
     "System.AppContext/4.1.0": {
       "type": "package",
