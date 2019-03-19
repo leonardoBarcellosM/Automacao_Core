@@ -40,6 +40,7 @@ namespace Automacao_Funcional.tests.steps
                     PendFundacred,
                     PendIes,
                     ReproIes,
+                    FilaDeEspera,
                     Aprovados
                     };
 
@@ -50,10 +51,11 @@ namespace Automacao_Funcional.tests.steps
                 DadosDB.Funil_PendenteAnaliseFundacred,
                 DadosDB.Funil_PendenteAnaliseIes,
                 DadosDB.Funil_ReprovadosIes,
+                DadosDB.Funil_FilaDeEspera,
                 DadosDB.Funil_Aprovados
                 };
 
-                for (int cont = 0; cont < 6; cont ++)
+                for (int cont = 0; cont < 7; cont ++)
                 {
                     total = Element[cont].Text;
                     dadosList[cont] = total;
@@ -68,7 +70,8 @@ namespace Automacao_Funcional.tests.steps
                 DadosDB.Funil_PendenteAnaliseFundacred = dadosList[2];
                 DadosDB.Funil_PendenteAnaliseIes = dadosList[3];
                 DadosDB.Funil_ReprovadosIes = dadosList[4];
-                DadosDB.Funil_Aprovados = dadosList[5];
+                DadosDB.Funil_FilaDeEspera = dadosList[5];
+                DadosDB.Funil_Aprovados = dadosList[6];
             }
             catch
             {
@@ -175,6 +178,27 @@ namespace Automacao_Funcional.tests.steps
             value = _result;
             conteudo = valores;
         }
+
+        public void ValidarFilaDeEsperaIES(ref bool value, ref string conteudo)
+        {
+            bool _result = false;
+            string valores = "Funil: " + DadosDB.Funil_FilaDeEspera + " | " + "DB: " + DadosDB.FilaDeEspera;
+
+            try
+            {
+                if (DadosDB.Funil_FilaDeEspera == DadosDB.FilaDeEspera)
+                {
+                    _result = true;
+                }
+            }
+            catch
+            {
+
+            }
+            value = _result;
+            conteudo = valores;
+        }
+
 
         public void ValidarReprovadosIes(ref bool value, ref string conteudo)
         {

@@ -32,12 +32,12 @@ namespace Automacao_Funcional.tests.steps
             bool result = false;
             string total = "";
 
-            string dia = DateTime.Now.Day.ToString();
-            string mes = DateTime.Now.Month.ToString();
-            string ano = DateTime.Now.Year.ToString();
-            int year = int.Parse(ano) - 7;
-            ano = year.ToString();
-            string data = dia + "-" + mes + "-" + ano;
+            //string dia = DateTime.Now.Day.ToString();
+            //string mes = DateTime.Now.Month.ToString();
+            //string ano = DateTime.Now.Year.ToString();
+            //int year = int.Parse(ano) - 7;
+            //ano = year.ToString();
+            //string data = dia + "-" + mes + "-" + ano;
 
             OracleConnection con = new OracleConnection
             {
@@ -70,6 +70,8 @@ namespace Automacao_Funcional.tests.steps
                 "select count(1) from SOLICITACOES_WEB where STATUS in ('RAF', 'RDC') and STATUS_CADASTRO not in ('C') and BOLSA_ID in (1539, 1541) and nvl(OCULTAR_IES, 'N') <> 'S'";
             string queryString5 =
                 "select count(1) from SOLICITACOES_WEB where STATUS in ('RIES') and BOLSA_ID in (1539, 1541) and nvl(OCULTAR_IES, 'N') <> 'S'";
+            string queryString6 =
+                "select count(1) from SOLICITACOES_WEB where STATUS in ('EIES') and STATUS_CADASTRO in ('C') and BOLSA_ID in (1539, 1541) and nvl(OCULTAR_IES, 'N') <> 'S'";
 
             string[] queryList =
                 {
@@ -78,7 +80,8 @@ namespace Automacao_Funcional.tests.steps
                 queryString2,
                 queryString3,
                 queryString4,
-                queryString5
+                queryString5,
+                queryString6
                 };
 
             string[] dadosList =
@@ -88,19 +91,20 @@ namespace Automacao_Funcional.tests.steps
                 DadosDB.PendenteAnaliseIes,
                 DadosDB.Aprovados,
                 DadosDB.ReprovadosFundacred,
-                DadosDB.ReprovadosIes
+                DadosDB.ReprovadosIes,
+                DadosDB.FilaDeEspera
                 };
 
             con.Open();
 
-            for (int cont = 0; cont < 6; cont++)
+            for (int cont = 0; cont < 7; cont++)
             {
 
                 try
                 {
                     OracleCommand command = con.CreateCommand();
                     command.CommandText = queryList[cont];
-                    command.Parameters.Add(new OracleParameter("dt", data));
+                    //command.Parameters.Add(new OracleParameter("dt", data));
                     OracleDataReader reader = command.ExecuteReader();
 
                     if (reader.Read())
@@ -126,6 +130,7 @@ namespace Automacao_Funcional.tests.steps
             DadosDB.Aprovados = dadosList[3];
             DadosDB.ReprovadosFundacred = dadosList[4];
             DadosDB.ReprovadosIes = dadosList[5];
+            DadosDB.FilaDeEspera = dadosList[6];
 
             con.Dispose();
             return result;

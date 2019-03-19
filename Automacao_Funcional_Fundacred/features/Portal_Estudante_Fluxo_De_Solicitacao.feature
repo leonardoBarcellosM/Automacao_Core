@@ -55,23 +55,23 @@ Then Validar direcionamento para etapa 4
 Scenario: 09 Validar DB atualização do fiador
 Then Validar status de solicitacao no db "Fiador"
 
-#@04_4Etapa
-#Scenario: 10 Preencher Dados Pessoais
-#Given Inserir os dados pessoais
-#When Inserir endereco e contato
-#And Clicar no botao proximo
-#Then Validar direcionamento dados fiador
-#
-#@04_4Etapa
-#Scenario: 11 Preencher Dados Completos Do Fiador
-#Given Preencho os dados completos do fiador
-#When Preencho contato e endereco
-#And Clico em proximo
-#Then Validar direcionamento Dados Curso
-#
-#@04_4Etapa
-#Scenario: 13 Preencher Dados Do Curso
-#Given Preencho matricula e percentual
-#When Preencho ano e semestre
-#And Clico em documentos
-#Then Validar direcionamento documentos
+@04_4Etapa
+Scenario: 10 Preencher Dados Pessoais
+Given Inserir os dados pessoais
+When Inserir endereco e contato
+And Clicar no botao proximo
+Then Validar direcionamento dados fiador
+
+@04_4Etapa
+Scenario: 11 Preencher Dados Completos Do Fiador
+Given Preencho os dados completos do fiador
+When Preencho contato e endereco
+And Clico em proximo
+Then Validar direcionamento Dados Curso
+
+@04_4Etapa
+Scenario: 13 Preencher Dados Do Curso
+Given Preencho matricula e percentual
+When Preencho ano e semestre
+And Clico em documentos
+Then Validar direcionamento documentos

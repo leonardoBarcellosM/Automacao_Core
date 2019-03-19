@@ -21,7 +21,6 @@ namespace Automacao_Funcional.tests.steps
         {
             bool result = pageAction.ConsultarDadosFunil();
 
-            
                 Assert.That(result, Is.True, "Erro ao capturar os dados do funil!");
         }
 
@@ -80,6 +79,18 @@ namespace Automacao_Funcional.tests.steps
             Assert.That(result, Is.True, "Dados não conferem - reprovados fundacred: " + valores);
         }
 
+        [When(@"Valido Fila De Espera IES")]
+        public void WhenValidoFilaDeEsperaIES()
+        {
+            bool result = false;
+            string valores = "";
+
+            pageAction.ValidarFilaDeEsperaIES(ref result, ref valores);
+
+            Assert.That(result, Is.True, "Dados não conferem - Fila De Espera IES: " + valores);
+        }
+
+
         [When(@"Valido reprovados ies")]
         public void WhenValidoReprovadosIes()
         {
@@ -90,6 +101,5 @@ namespace Automacao_Funcional.tests.steps
 
             Assert.That(result, Is.True, "Dados não conferem - reprovados ies: " + valores);
         }
-        
     }
 }

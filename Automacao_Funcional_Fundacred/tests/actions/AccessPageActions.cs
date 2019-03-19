@@ -1,10 +1,12 @@
-﻿using OpenQA.Selenium;
+﻿using NUnit.Framework;
+using OpenQA.Selenium;
 using SeleniumExtras.PageObjects;
 using System;
 using System.Threading;
 
 namespace Automacao_Funcional.tests.steps
 {
+    
     class AcessPageActions : AccessElementsMap
     {
         private ClassUtilities util = new ClassUtilities();
@@ -14,6 +16,7 @@ namespace Automacao_Funcional.tests.steps
             PageFactory.InitElements(ClassDriver.GetInstance().Driver, this);
         }
 
+        
         public bool AccessPage(string url)
         {
             bool _result = false;
@@ -29,6 +32,7 @@ namespace Automacao_Funcional.tests.steps
             return _result;
         }
 
+       
         public bool ValidAccessPage()
         {
             bool _result = false;
@@ -52,6 +56,7 @@ namespace Automacao_Funcional.tests.steps
             return _result;
         }
 
+       
         public bool ValidarAcessoIes()
         {
             bool _result = false;

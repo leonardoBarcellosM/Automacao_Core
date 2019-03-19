@@ -9,7 +9,7 @@
 
 @01_AcessarPagina
 Scenario: 01 Acessar o endereco
-#Given Acessar o endereco "http://testes.fundacred.org.br/ies/#/login"	
+Given Acessar o endereco "http://testes.fundacred.org.br/ies/#/login"	
 Given Acessar o endereco "http://homologacao.fundacred.org.br/ies/#/login"	
 Then Validar Acesso ao portal
 
@@ -46,5 +46,9 @@ Scenario: 08 Valido reprovados fundacred
 When Valido reprovados fundacred
 
 @03_ValidarFunil
-Scenario: 09 Valido reprovados ies
+Scenario: 09 Valido Fila De Espera IES
+When Valido Fila De Espera IES
+
+@03_ValidarFunil
+Scenario: 10 Valido reprovados ies
 When Valido reprovados ies

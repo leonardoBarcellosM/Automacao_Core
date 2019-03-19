@@ -7,6 +7,7 @@
         public static string PendenteAnaliseIes { get; set; }
         public static string Aprovados { get; set; }
         public static string ReprovadosFundacred { get; set; }
+        public static string FilaDeEspera { get; set; }
         public static string ReprovadosIes { get; set; }
 
         public static string Funil_SolicitacoesIniciadas { get; set; }
@@ -14,6 +15,7 @@
         public static string Funil_PendenteAnaliseIes { get; set; }
         public static string Funil_Aprovados { get; set; }
         public static string Funil_ReprovadosFundacred { get; set; }
+        public static string Funil_FilaDeEspera { get; set; }
         public static string Funil_ReprovadosIes { get; set; }
 
         public static string statCadastro { get; set; }

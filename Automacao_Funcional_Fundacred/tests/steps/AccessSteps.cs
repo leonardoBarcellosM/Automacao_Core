@@ -13,10 +13,10 @@ namespace Automacao_Funcional.tests.steps
         public void GivenAcessarOEndereco(string url)
         {
             var result = pageAction.AccessPage(url);
-
                 Assert.That(result, Is.True, "Erro ao acessar a URL -> " + url);
         }
-        
+
+        [Test()]
         [Then(@"Validar o carregamento")]
         public void ThenValidarOCarregamentoComSucesso()
         {
@@ -24,6 +24,5 @@ namespace Automacao_Funcional.tests.steps
             
                 Assert.That(result, Is.True, "Erro ao acessar o endereço solicitado");
         }
-       
     }
 }
